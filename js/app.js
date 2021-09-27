@@ -1,6 +1,6 @@
 console.log('hola mundo app.js')
 let url =window.location.href;
-let swDirect = '/pwa_sw_instalation/sw.js';
+let swDirect = 'https:/alanjesuscv.github.io/pwa_sw_instalation//sw.js';
 
 // Preguntamos si navegador y/o el sitio dispone de sw
 if(navigator.serviceWorker){
