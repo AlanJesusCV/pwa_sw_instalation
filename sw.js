@@ -11,7 +11,7 @@ self.addEventListener("activate", event => {
 
 self.addEventListener("fetch", event => {
   if (event.request.url.includes(".jpg")) {
-    let newResp = fetch("/image/perro_gato.jpg");
+    let newResp = fetch("/pwa_sw_instalation/image/perro_gato.jpg");
 
     event.respondWith(newResp);
   }
